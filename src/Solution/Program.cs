@@ -8,7 +8,7 @@
         {
             //// TwoDArray.Main(args);
             //// DynamicArray.Program(args);
-            AlgorithmicCrush.Program();
+            //// AlgorithmicCrush.Program();
         }
     }
 }
