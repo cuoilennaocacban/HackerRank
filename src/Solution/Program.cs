@@ -1,5 +1,6 @@
 ﻿namespace Solution
 {
+    using System;
     using DataStructures;
 
     public class Program
@@ -9,6 +10,10 @@
             //// TwoDArray.Main(args);
             //// DynamicArray.Program(args);
             //// AlgorithmicCrush.Program();
+
+            LeftRotation.Program();
+
+            Console.ReadLine();
         }
     }
 }
