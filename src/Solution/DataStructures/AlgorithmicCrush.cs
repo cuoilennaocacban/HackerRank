@@ -30,11 +30,6 @@
 
             result = new int[N];
 
-            for (int i = 0; i < N; i++)
-            {
-                result[i] = 0;
-            }
-
             //Read input
             for (int i = 0; i < _numberOfQueries; i++)
             {
