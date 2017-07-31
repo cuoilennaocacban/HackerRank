@@ -10,8 +10,8 @@
             //// TwoDArray.Main(args);
             //// DynamicArray.Program(args);
             //// AlgorithmicCrush.Program();
-
-            LeftRotation.Program();
+            //// LeftRotation.Program();
+            Waiter.Program();
 
             Console.ReadLine();
         }
