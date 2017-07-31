@@ -20,25 +20,33 @@
 
         public static void Program(string[] args = null)
         {
-            var arrTemp = Console.ReadLine().Split(' ');
-            if (arrTemp.Length == 2)
-            {
-                //First Item
-                N = int.Parse(arrTemp[0]);
-                _numberOfQueries = int.Parse(arrTemp[1]);
-            }
+            //string[] inString = Console.ReadLine().Split(' ');
+            //uint[] initParams = Array.ConvertAll(inString, UInt32.Parse);
+            //uint n = initParams[0];
+            //uint m = initParams[1];
 
-            result = new int[N];
+            //long[] numList = new long[n + 1];
 
-            //Read input
-            for (int i = 0; i < _numberOfQueries; i++)
-            {
-                arrTemp = Console.ReadLine().Split(' ');
-                DoOperation(int.Parse(arrTemp[0]), int.Parse(arrTemp[1]), int.Parse(arrTemp[2]));
-            }
+            //for (int i = 0; i < m; i++)
+            //{
+            //    string[] opString = Console.ReadLine().Split(' ');
+            //    uint a = UInt32.Parse(opString[0]);
+            //    uint b = UInt32.Parse(opString[1]);
+            //    long k = long.Parse(opString[2]);
 
-            Console.WriteLine(result.Max());
-            Console.ReadLine();
+            //    numList[a] += k;
+            //    if (b + 1 <= n) numList[b + 1] -= k;
+            //}
+
+            //long tempMax = 0;
+            //long max = 0;
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    tempMax += numList[i];
+            //    if (tempMax > max) max = tempMax;
+            //}
+
+            //Console.WriteLine(max.ToString());
         }
     }
 }
