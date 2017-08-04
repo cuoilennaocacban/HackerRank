@@ -156,27 +156,34 @@
 
             for (int i = 0; i < _loopTime; i++)
             {
+                if (remains.Count > 0)
+                {
+                    remains = new List<int>();
+                }
+
                 for (int j = 0; j < calcPlates.Count; j++)
                 {
                     if (calcPlates[j] % _primes[i] == 0)
                     {
-                        lockedPlates.Add(calcPlates[j]);
+                        lockedPlates.Insert(0, calcPlates[j]);
                     }
                     else
                     {
-                        remains.Add(calcPlates[j]);
+                        remains.Insert(0, calcPlates[j]);
                     }
                 }
 
                 calcPlates = new List<int>(remains);
             }
 
-            foreach (int i in lockedPlates)
+            for (var index = lockedPlates.Count - 1; index >= 0; index--)
             {
+                int i = lockedPlates[index];
                 Console.WriteLine(i);
             }
-            foreach (int i in remains)
+            for (var index = remains.Count - 1; index >= 0; index--)
             {
+                int i = remains[index];
                 Console.WriteLine(i);
             }
         }
