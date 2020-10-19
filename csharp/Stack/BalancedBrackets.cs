@@ -15,31 +15,31 @@ namespace Solution.Stack
             {
                 case '[':
                 case ']':
-                {
-                    if ((a + b) == 184)
                     {
-                        return true;
+                        if ((a + b) == 184)
+                        {
+                            return true;
+                        }
+                        break;
                     }
-                    break;
-                }
                 case '{':
                 case '}':
-                {
-                    if ((a + b) == 248)
                     {
-                        return true;
+                        if ((a + b) == 248)
+                        {
+                            return true;
+                        }
+                        break;
                     }
-                    break;
-                }
                 case '(':
                 case ')':
-                {
-                    if ((a + b) == 81)
                     {
-                        return true;
+                        if ((a + b) == 81)
+                        {
+                            return true;
+                        }
+                        break;
                     }
-                    break;
-                }
             }
 
             return result;
@@ -68,18 +68,16 @@ namespace Solution.Stack
 
                 for (int j = 1; j < len; j++)
                 {
-                    switch (temp[j])
-                    {
-                        
-                    }
+                    // switch (temp[j])
+                    // {
+                    //     //TODO:
+                    // }
 
                     if (exitLoop)
                     {
                         break;
                     }
                 }
-
-
             }
         }
     }
