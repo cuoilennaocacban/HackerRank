@@ -10,6 +10,13 @@
             "request": "launch",
             "mainClass": "hackerrank.loop2.Loop2",
             "projectName": "hackerrank"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-twodarray<hackerrank>",
+            "request": "launch",
+            "mainClass": "hackerrank.twodarray.Twodarray",
+            "projectName": "hackerrank"
         }
     ]
 }
